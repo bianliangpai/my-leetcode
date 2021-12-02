@@ -57,3 +57,12 @@ Temporary Items
 *.log
 *.vcxproj
 *.filters
+
+# vscode setting files
+.vscode/*
+
+# cpp build files
+leetcode/cpp/build/*
+
+# rust build files
+leetcode/rust/target/*
