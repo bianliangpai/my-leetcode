@@ -1,3 +1,6 @@
-#include "solution/260.h"
+#include "solution/146.h"
 
-int main(int argc, char* argv[]) { return Leetcode(); }
+int main(int argc, char* argv[]) {
+  // call
+  return Leetcode();
+}

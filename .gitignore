@@ -59,7 +59,9 @@ Temporary Items
 *.filters
 
 # vscode setting files
-.vscode/*
+.vscode/launch.json
+.vscode/settings.json
+.vscode/tasks.json
 
 # cpp build files
 leetcode/cpp/build/*

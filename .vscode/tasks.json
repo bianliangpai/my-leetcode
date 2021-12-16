@@ -2,12 +2,19 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "cargo build",
-            "type": "cargo",
-            "subcommand": "build",
-            "problemMatcher": [
-                "$rustc"
-            ]
+            "label": "cmake_build",
+            "type": "shell",
+            "command": "cmake --build ${workspaceFolder}/leetcode/cpp/build",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "cmake",
+            "type": "shell",
+            "command": "cmake -G \"MinGW Makefiles\" ${workspaceFolder}/leetcode/cpp",
         }
     ]
 }
