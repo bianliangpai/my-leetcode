@@ -14,7 +14,7 @@
         {
             "label": "cmake",
             "type": "shell",
-            "command": "cmake -G \"MinGW Makefiles\" ${workspaceFolder}/leetcode/cpp",
+            "command": "cmake -G \"Visual Studio 17 2022\" ${workspaceFolder}/leetcode/cpp",
         }
     ]
 }

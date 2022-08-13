@@ -65,6 +65,7 @@ Temporary Items
 
 # cpp build files
 leetcode/cpp/build/*
+build/*
 
 # rust build files
 leetcode/rust/target/*
